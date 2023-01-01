@@ -8,9 +8,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/',function(){
-    return 'hello World';
-});
 Route::get('react', function () {
     return view('welcome'); 
 });
